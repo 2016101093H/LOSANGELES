@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/HOSTAL.LOSANGELES', function () {
-    return view('portalprincipal');
+Route::get('/', function () {
+    return view('welcome');
 });
